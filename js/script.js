@@ -13,6 +13,10 @@ plusBtn.addEventListener("click", function(){
     const subTotal = document.getElementById("subTotal").innerText;
     const subTotalNumber = parseFloat(subTotal); 
     document.getElementById("subTotal").innerText = finalPhonePrice + subTotalNumber; 
+
+    const total = document.getElementById("subTotal").innerText;
+    const totalNumber = parseFloat(total); 
+    document.getElementById("total").innerText = totalNumber; 
 })
 
 
@@ -34,6 +38,10 @@ minusBtn.addEventListener("click", function(){
         const subTotal = document.getElementById("subTotal").innerText;
         const subTotalNumber = parseFloat(subTotal); 
         document.getElementById("subTotal").innerText = -1 * priceNumber + subTotalNumber; 
+
+        const total = document.getElementById("subTotal").innerText;
+        const totalNumber = parseFloat(total); 
+        document.getElementById("total").innerText = totalNumber; 
     }    
 })
 
@@ -52,6 +60,10 @@ plusBtn2.addEventListener("click", function(){
     const subTotal = document.getElementById("subTotal").innerText;
     const subTotalNumber = parseFloat(subTotal); 
     document.getElementById("subTotal").innerText = finalPhonePrice2 + subTotalNumber; 
+
+    const total = document.getElementById("subTotal").innerText;
+    const totalNumber = parseFloat(total); 
+    document.getElementById("total").innerText = totalNumber; 
 })
 
 
@@ -73,6 +85,10 @@ minusBtn2.addEventListener("click", function(){
         const subTotal = document.getElementById("subTotal").innerText;
         const subTotalNumber = parseFloat(subTotal); 
         document.getElementById("subTotal").innerText = -1 * priceNumber2 + subTotalNumber; 
+
+        const total = document.getElementById("subTotal").innerText;
+        const totalNumber = parseFloat(total); 
+        document.getElementById("total").innerText = totalNumber; 
     }    
 })
 
